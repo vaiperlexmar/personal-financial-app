@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+
+  &__settings {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    list-style: none;
+  }
+}

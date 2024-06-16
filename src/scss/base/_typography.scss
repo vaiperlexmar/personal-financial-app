@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "CodeNext-Trial-ExtraBold";
+  src: url("/src/assets/fonts/CodeNext-Trial-ExtraBold.woff") format("woff");
+  font-weight: extrabold;
+}
+
+.logo {
+  font-family: "CodeNext-Trial-ExtraBold";
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.01em;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}
