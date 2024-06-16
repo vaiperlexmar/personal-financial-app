@@ -41,11 +41,14 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: #516778;
-  padding: 0.8rem 1.2rem; }
+  padding: 0.8rem 1.2rem;
+  transition: 0.2s all; }
   .link_active {
     color: #155eef;
     background-color: #f5f8ff;
     border-radius: 0.6rem; }
+  .link:hover {
+    color: #155eef; }
 
 .profile__img {
   width: 4rem;

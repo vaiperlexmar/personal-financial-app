@@ -5,10 +5,15 @@
   text-decoration: none;
   color: $color-gray-600;
   padding: 0.8rem 1.2rem;
+  transition: 0.2s all;
 
   &_active {
     color: $color-brand-600;
     background-color: #f5f8ff;
     border-radius: 0.6rem;
+  }
+
+  &:hover {
+    color: $color-brand-600;
   }
 }
